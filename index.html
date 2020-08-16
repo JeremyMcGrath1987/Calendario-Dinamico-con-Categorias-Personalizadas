@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Laboral y Vacaciones</title>
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" media="(min-width: 600px)" href="./css/style.css">
+
+</head>
+
+<body id="content">
+    <h1 id="calendario_fecha"></h1>
+    <div id="categorias">
+        <input class="vacio" type="text" name="categoria" id="categoria" autofocus placeholder="Crea tu categoría">
+        <input type="color" value="#FF0033" id="color"><br>
+        <button class="vacio" id="crear">Crear Categoría</button>
+        <h2>Categorias:</h2>
+        <p>Pulsa una categoría para seleccionarla y luego pulsa en los días que se quieran para aplicar la categoría.
+        </p>
+        <button id="vacaciones" value="vaca">Vacaciones</button>
+        <button id="trabajo" value="trab">Trabajo</button>
+
+    </div>
+</body>
+<script src="./js/main.js"></script>
